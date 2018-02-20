@@ -1,0 +1,372 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#banner{
+    height: auto;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(5, 117, 158, 0.4);
+}
+#container{
+    height: 100%;
+    margin: 0 10% 0 10%;
+    border-left: thin solid black;
+    border-right: thin solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#loginContainer{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+#login{
+    border: thin solid black;
+    padding: 2em;
+}
+#userN{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+#passW{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em 1em 1em;
+}
+#loginButt{
+    display: flex;
+    justify-content: center;
+}
+#errorDiv{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+#loginHeading{
+    text-align: center;
+    padding-bottom: 15px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+#navMenu{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+#register{
+    width: auto;
+    margin: 10px;
+}
+#registerCont{
+    display: flex;
+    justify-content: center;
+    border: thick solid black;
+    margin: 2.5%;
+    padding: 60px;
+}
+#addBookCont{
+    display: flex;
+    justify-content: center;
+    border: thick solid black;
+    margin: 2.5%;
+    padding: 60px;
+}
+#editModal{
+    display: flex;
+    justify-content: space-around;
+    border: thick solid black;
+    padding: 1em;
+    background-color: rgba(70, 151, 181, 0.80);
+}
+#registerHeading{
+    text-align: center;
+}
+#addBookHeading{
+    text-align: center;
+    padding-bottom: .5em;
+}
+#subButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+input{
+    float: right;
+    padding: .2em;
+    margin-left: 10px;
+}
+.inputTest{
+    height: 2.5em;
+    width: auto;
+}
+.inputTestModal{
+    height: 2.5em;
+    width: auto;
+}
+.inputTestModalTextArea{
+    height: 2.5em;
+    width: auto;
+}
+.inputModal{
+    width: 25em;
+}
+#registerHeading{
+    padding-bottom: .5em;
+}
+#foot{
+    height: auto;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+    text-align: center;
+}
+nav{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    border-bottom: thin solid black;
+    padding-bottom: 10px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+#temp{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+select{
+    float: right;
+    width: 13.2em;
+    margin: .2em;
+}
+#selectDiv{
+    margin-bottom: 10px;
+}
+#test{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#bookView{
+    height: auto;
+    max-width: 100%;
+}
+#heading{
+    text-align: center;
+}
+.bookCover{
+    float: left;
+    padding: 1em;
+}
+#cover{
+    width: auto;
+    height: auto;
+}
+.bookTitle{
+    text-align: center;
+}
+#bookLibrary{
+    text-align: center;
+    border-bottom: thin solid black;
+    padding: .5em;
+}
+#editDelete{
+    display: flex;
+    justify-content: space-around;
+}
+#addButt{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#edit{
+    padding: 2em;
+}
+#modal{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+#editContainer{
+    width: 100%;
+    position: absolute;
+}
+#formButtons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#bookTit{
+    padding-bottom: 1em;
+}
+#modalImage{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+#bookTit{
+    text-align: center;
+}
+textarea{
+    float: right;
+    width: 12.8em;
+    height: 6em;
+    padding: .2em;
+    margin-bottom: 1em;
+}
+.formButt{
+    margin: 0 1em 0 1em;
+}
+#adjustSelect{
+    margin: 0 0 1.3em 0;
+}
+#textareaPlot{
+    width: 100%;
+    height: 5em;
+}
+#toggleMenu{
+    display: none;
+    padding: 0;
+}
+#show-menu{
+    display: none;
+}
+#show-menu:checked ~ #menu{
+    display: block;
+}
+.show-menu {
+	color: #fff;
+	background: lightsteelblue;
+	text-align: center;
+	padding: 1em 0;
+    display: none;
+    width: 100%;
+}
+.show-menu:hover{
+    background-color: teal;
+}
+#alignMenu{
+    display: flex;
+    justify-content: center;
+}
+#menu{
+    display: none;
+    padding-top: .5em;
+}
+a:hover {
+    text-decoration: none;
+    color: teal;
+}
+.loginTitle{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 620px){
+    #container{
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    #navMenu{
+        flex-wrap: wrap;
+    }
+    #addBookCont{
+        border: none;
+        padding: 0;
+    }
+    #registerCont{
+        border: none;
+        padding: 0;
+    }
+    .inputTest{
+        float: left;
+        padding: .5em 0 .5em 0;
+        width: 100%;
+    }
+    #selectDiv{
+        float: left;
+        padding: .5em 0 .5em 0;
+        width: 100%;
+    }
+    input{
+        float: right;
+        width: 95%;
+        margin: 0;
+    }
+    #subButton{
+        width: 100%;
+    }
+    select{
+        float: left;
+        width: 100%;
+    }
+    #add{
+        margin: 1.4em;
+    }
+    #userN{
+        flex-wrap: wrap;
+    }
+    #passW{
+        flex-wrap: wrap;
+    }
+    .inputTestModal{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-bottom: .5em;
+    }
+    .inputTestModalTextArea{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+        height: auto;
+    }
+    #edit{
+        padding: 0;
+    }
+    #toggleMenu{
+        display: block;
+    }
+    .show-menu{
+        display: block;
+    }
+    #navMenu{
+        display: none;
+    }
+}
